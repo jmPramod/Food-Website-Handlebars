@@ -1,0 +1,120 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import 'navbar.css';
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+}
+
+.home {
+  width: 100%;
+  height: 65vh;
+  /* border: 1px solid black; */
+}
+
+.top {
+  border: 1px solid red;
+  height: 65vh;
+  background-image: url('../image/home1.avif');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top > div {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.top > div > img {
+  height: 70px;
+}
+.top > div > h3 {
+  margin-top: 3rem;
+  color: white;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+}
+.search {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  border-radius: 10px;
+}
+.location {
+  width: 30%;
+
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  border-right: none;
+  /* outline: none; */
+}
+
+.location:focus,
+.restorant:focus {
+  outline: none;
+}
+.restorant {
+  width: 70%;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  border-left: none;
+}
+.search > div {
+  /* padding: 15px; */
+}
+.iconContainer {
+  width: 53px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.arrow-icon::before {
+  content: '\25BC'; /* Down arrow character */
+}
+
+.flip-arrow-icon::before {
+  content: '\25B2'; /* Up arrow character */
+}
+
+.search {
+  /* border: 1px solid black; */
+  align-items: center;
+}
+.search > i {
+  padding: 20px;
+  color: rgb(255, 126, 139);
+}
+
+/*--------------- secondPart-------------- */
+.secondPart > aside {
+  /* width: 70%; */
+  border: 1px solid black;
+  display: grid;
+  height: 100%;
+  gap: 20px;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-auto-rows: minmax(100px, auto);
+}
+.secondPart {
+  display: grid;
+  margin: 80px auto;
+  place-items: center;
+  height: 70vh;
+  gap: 20px;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-au

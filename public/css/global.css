@@ -1,0 +1,21 @@
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  right: 5%;
+  left: 5%;
+  color: white;
+}
+
+.nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav > ul > div {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+}
