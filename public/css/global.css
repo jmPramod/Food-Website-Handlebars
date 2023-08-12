@@ -1,10 +1,19 @@
 .nav {
   width: 80%;
   margin: 0 auto;
-  position: absolute;
+  border-radius: 50%;
+  top: 10px;
+  position: fixed;
   right: 5%;
   left: 5%;
   color: white;
+  /* border: 1px solid white; */
+  padding: 20px;
+}
+.logo > button > img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
 
 .nav > ul {
@@ -18,4 +27,27 @@
   text-decoration: none;
   list-style: none;
   gap: 20px;
+}
+
+.nav > ul > li > button,
+.nav > ul > div > li > button {
+  background-color: transparent;
+  color: white;
+  padding: 3px;
+  border: none;
+}
+.logo,
+.nav > ul > div > li {
+  border-radius: 10px;
+}
+.logo:hover,
+.nav > ul > div > li :hover {
+  background-color: white;
+  transition: ease-in-out 0.3s;
+
+  cursor: pointer;
+}
+.logo > button:hover,
+.nav > ul > div > li > button:hover {
+  color: black;
 }
