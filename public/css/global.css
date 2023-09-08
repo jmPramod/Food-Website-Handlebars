@@ -1,0 +1,82 @@
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50%;
+  top: 10px;
+  position: fixed;
+  right: 5%;
+  left: 5%;
+  color: white;
+  /* border: 1px solid white; */
+  padding: 20px;
+}
+.logo > button > img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav > ul > div {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav > ul > li > button,
+.nav > ul > div > li > button {
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  font-weight: 300;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.logo,
+.nav > ul > div > li {
+  border-radius: 10px;
+}
+.logo:hover,
+.nav > ul > div > li :hover {
+  background-color: white;
+  transition: ease-in-out 0.3s;
+
+  cursor: pointer;
+}
+.logo > button:hover,
+.nav > ul > div > li > button:hover {
+  color: black;
+}
+
+/* FLASH Msg */
+.alert {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.alert-success {
+  background-color: lightgreen;
+  border: 1px solid green;
+  color: green;
+}
+
+.alert-danger {
+  background-color: rgb(219, 136, 136);
+  border: 1px solid red;
+  color: red;
+}
+
+.alert-info {
+  background-color: lightblue;
+  border: 1px solid blue;
+  color: blue;
+}

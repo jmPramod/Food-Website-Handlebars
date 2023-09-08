@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "shopping-handelbars",
+  "private_key_id": "8e7d72ec952e7dce5f94390d861d4900fbc855e8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDC/+1mlbvKWFHY\nSLoLc8vQqI8GTV18MzQIoGtdZqqU9PREg1nfHZinbBmgTkg152p3td/FHkG8UJNM\n8iPcCB2lBYHbUL7X0e7D9vEKIcVu6VwPAdbMOvcUcp5X1jMtIWwAMQ8Eb7MRFEh6\novxQWJ94zeuk24aoi3oNMaDn5smb86YVhz5Smz025L+/AU/tHWsEcEGYOk731N6/\ncTcbrCmrmf4rf2+XtYYsam4YYuMY4dy2DvAPIwPlUKEAepExtppXNWmRGvJqB3rA\nXHbebJ019GnC0/Gt87sWE53tbVa6ZNQjftVBZCz3sl+ZMpUYTDO83eeGA9kKjN0e\nDw0igr2VAgMBAAECggEADrbToeJKE5RzBpRET6Fq/4F8m1/inkDZ3A3I1DkvRYKv\nXO0hbrPTxUxjqaRGkCS4dLSJYF0uXiihWNTLrmqBXCasfBFdeTka4Hgli5ttQ7eB\nrhM4M1x+sPEOMDgWUAE93kzVYoMQOslyR6i9S83IKMw3DA9Rm628pbq5Ns6EJ4uL\nBr/UZYBtnuGEelTaUsmSo3BlPOd44Oe4SP82FnjRRS7rYRD4YcTsfO9j2mA3N6jJ\n3mWbWCPCnEyXYXt4deUyMkCV5gul11RTinEA/HrE/0jovsXVK2SAKrfIVbon7Son\nP+BIelBSbRoygwzlWAeoUcolKRn0Br/YCH3qwJLtiQKBgQDyvmEu43Gi+Qxb1Czz\nSaEkW3fkT15VMvdA/GukHdlWV6y1wgXpR+700qhDj9MRyM5tRUn1aYFytR7vexNn\nD8Ag8rdpZMZxQJzN/LUmqUzFypmd6WhBER4iZ8n4kAyGGh9KhkAZNQZtXkOMitk1\ni41Pp0MMcaEAFJ0WWofRqkJ42QKBgQDNphMed+Ggl8h0E42MvFbDB36jcGX1YAtu\n2Y2w01qO/t04De7OHN9+PjY9Br1rXU1Sd6SMMI4TsHzgHtJdHfSoWQYxAiaRPI/P\ntLq+GLDupZwzv7biXKJ5O+yk4qpUMBa4CN3cR/XQZs+9L0cQ8heWmugHoAwUZDg8\nQdQ5DNNVHQKBgGE4bqPg5DpplNGSgQ5PhwKQv8vpHdbxuqWEc3gfnFRAeSOyubtc\n3A+h71Jf4CFXU5XgEmcAAqB2ehVgLb0xSbnofBzyB6iEQEkf1U3OsLjnE+9y9BZb\nTL5q4zFyQBHVlIK8kh+GZTSYdGVtluEjK02jp+7r85ecqe2yBIOstULBAoGANloD\nSZUzm8ch4pPcYGrSn38WmEm3mM+GlgiHq0lg8NQpUYxVJkJ5SxtUKHLkk0C4k+gt\nJCQdGNUXXACpZpTpOak1urQvz0jrVWEVzfImqRw6GW88/byv8EzHMZj6nX+MMZ2e\nTX7zV94kX4LkTHU/iL1uP72sE6OdPUfEuENMg30CgYAv+7Tl64JxUAOTYihlUBM6\nkDdOjaUc7YG441vyOdF1lCGvJDrjPAE7J9qM+JgoFn3O7YkSx0xoQzmOBH7ZynDg\nIb202/uuL358h0kRDcuD8LfPs+Q++fTsk1I91t8c5O8TuLBv3c9WD9n4JezoCo/0\nn5fBjZzaEQ43iR8RRapMDg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-rl5lr@shopping-handelbars.iam.gserviceaccount.com",
+  "client_id": "107691145682114658774",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-rl5lr%40shopping-handelbars.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
